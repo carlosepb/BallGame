@@ -115,5 +115,4 @@ Enlace al proyecto: [https://github.com/carlosepb/FakeMask](https://github.com/c
 * [Gif-animation](https://github.com/extrapixel/gif-animation)
 * [Funprogramming](https://funprogramming.org/)
 * [Text](https://processing.org/reference/text_.html)
-* [Texturas](https://www.pexels.com/es-es/)
 * [Minim](http://code.compartmental.net/tools/minim/)
