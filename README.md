@@ -53,36 +53,36 @@ Juego de evitar obstáculos.
 ## Sobre el Proyecto
 
 <p align="justify">
-Aplicación desarrollada en Processing 3 que hace uso de la cámara de tu portátil para ponerte una máscara, en este caso disponemos de 3 distintas.
-Para cambiar de máscara usaremos las teclas de flecha izquierda y flecha derecha.
-En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo además de adaptarse al tamaño de nuestra cara por la cercanía a la cámara.(imagen_4.0)
+Al iniciar el juego como primera pantalla nos encontraremos con un menú donde se nos explican los controles básicos del juego. Tenemos que para pausar o iniciar utilizamos la tecla espacio, para mover la pelota simplemente bastará con tener un micrófono abierto y hacer suficiente ruido para que la pelota ascienda y esquive los obstáculos. Cuidado con mantener demasiado tiempo la pelota en el aire ya que esta perderá la energía y perderás. (imagen_1.0)
 </p>
-<p align="center"><img src="images/menu.JPG" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
+<p align="center"><img src="images/menu.JPG" alt="menu" width="600" height="425"></br>imagen_1.0</p>
 
 <p align="justify">
-Aplicación desarrollada en Processing 3 que hace uso de la cámara de tu portátil para ponerte una máscara, en este caso disponemos de 3 distintas.
-Para cambiar de máscara usaremos las teclas de flecha izquierda y flecha derecha.
-En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo además de adaptarse al tamaño de nuestra cara por la cercanía a la cámara.(imagen_4.0)
+En el momento de juego podemos ver que tenemos dos contadores, uno que lleva la cuenta de la distancia que hemos recorrido y otro que se encarga de decirnos la cantidad de energía que le queda a la pelota, la cual se reducirá según el tiempo que pasemos en el aire. (imagen_2.0)
 </p>
-<p align="center"><img src="images/juego.JPG" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
+<p align="center"><img src="images/juego.JPG" alt="juego" width="600" height="425"></br>imagen_2.0</p>
 
 <p align="justify">
-Aplicación desarrollada en Processing 3 que hace uso de la cámara de tu portátil para ponerte una máscara, en este caso disponemos de 3 distintas.
-Para cambiar de máscara usaremos las teclas de flecha izquierda y flecha derecha.
-En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo además de adaptarse al tamaño de nuestra cara por la cercanía a la cámara.(imagen_4.0)
+Además como señales visuales veremos que según se nos acabe la energía el fondo se pondrá rojo cuando menos energía nos quede y tendremos una línea en el centro que nos avisará cuando este detectando sonidos. (imagen_3.0)
 </p>
-<p align="center"><img src="images/energy.JPG" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
+<p align="center"><img src="images/energy.JPG" alt="energia" width="600" height="425"></br>imagen_3.0</p>
 
 <p align="justify">
-Aplicación desarrollada en Processing 3 que hace uso de la cámara de tu portátil para ponerte una máscara, en este caso disponemos de 3 distintas.
-Para cambiar de máscara usaremos las teclas de flecha izquierda y flecha derecha.
-En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo además de adaptarse al tamaño de nuestra cara por la cercanía a la cámara.(imagen_4.0)
+En la siguiente demostración podremos ver en movimiento lo descrito en los párrafos anteriores.(imagen_4.0)
 </p>
 <p align="center"><img src="images/animation.gif" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
 
 ## Trabajo Realizado
 <p align="justify">
-Para la detección de la cara se ha utilizado el recurso OpenCV además de la librería video accesible desde la interfaz Processing 3. Para la actualización de la máscara actual se utiliza una tarea que se ejecuta a través de un hilo a modo de timer lo que nos permite actualizar la ruta al fichero donde guardamos la mascara en uso.
+Para la detección del sonido se ha utilizado la librería MINIM la cual podemos encontrar en el apartado de instalación.
+</p>
+
+<p align="justify">
+Detectamos el sonido y comprobamos que esta por encima de un umbral mínimo para evitar que la pelota salte de manera accidental. También utilizamos el sonido de entrada para modificar una línea que nos indica la cantidad de ruido que esta entrando.
+</p>
+
+<p align="justify">
+Para el descenso de la pelota lo hacemos reduciendo progresivamente su altura para que su descenso sea menos brusco que el salto. También utilizaremos una variable a modo de contador que se reducirá si la pelota se encuentra despegada del suelo para evitar que pasemos todo el tiempo que queramos en el aire.
 </p>
 
 ## Herramientas de Desarrollo
