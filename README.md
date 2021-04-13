@@ -57,7 +57,7 @@ Aplicación desarrollada en Processing 3 que hace uso de la cámara de tu portá
 Para cambiar de máscara usaremos las teclas de flecha izquierda y flecha derecha.
 En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo además de adaptarse al tamaño de nuestra cara por la cercanía a la cámara.(imagen_4.0)
 </p>
-<p align="center"><img src="animation.gif" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
+<p align="center"><img src="images/animation.gif" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
 
 ## Trabajo Realizado
 <p align="justify">
