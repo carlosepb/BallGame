@@ -128,7 +128,7 @@ Autor: Carlos Eduardo Pacichana Bastidas
 
 Email: carlos.eduardo.pacichana@gmail.com  carlos.pacichana101@alu.ulpgc.es
 
-Enlace al proyecto: [https://github.com/carlosepb/FakeMask](https://github.com/carlosepb/BallGame)
+Enlace al proyecto: [https://github.com/carlosepb/BallGame](https://github.com/carlosepb/BallGame)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Agradecimientos
